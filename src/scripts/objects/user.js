@@ -3,8 +3,8 @@ const user = {
     name: '',
     bio: '',
     userName: '',
-    followersurl: '',
-    followingurl: '',
+    followers: '',
+    following: '',
 
     repositories: [],
     setInfo(gitHubUser){
@@ -12,8 +12,8 @@ const user = {
         this.name = gitHubUser.name
         this.bio = gitHubUser.bio
         this.userName = gitHubUser.login
-        this.followersurl = gitHubUser.followers_url
-        this.followingurl = gitHubUser.following_url
+        this.followers = gitHubUser.followers
+        this.following = gitHubUser.following
     },
     setRepositories(repositories){
         this.repositories = repositories
