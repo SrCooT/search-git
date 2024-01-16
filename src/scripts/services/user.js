@@ -1,4 +1,4 @@
-import { baseUrl, repositoriesQuantity , } from '/src/scripts/variables.js'
+import { baseUrl, repositoriesQuantity , eventsQuantity ,} from '/src/scripts/variables.js'
 
 async function getUser(userName) {
     const response = await fetch(`${baseUrl}/${userName}`)
@@ -7,3 +7,4 @@ async function getUser(userName) {
 }
 
 export { getUser }
+
