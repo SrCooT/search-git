@@ -26,19 +26,24 @@ const screen = {
         }
 
         let eventsItems = '';
-        user.events.forEach(event => eventsItems += `<li><a href="${event.html_url}" target="_blank">${event.name}</a></li>`);
-
+        user.events.forEach((event) => {
+            if (event.type === 'PushEvent') {
+                eventsItems += `<li>${event.repo.name}
+                <span>-${event.payload.commits[0].message}</span></li>`
+            }
+            console.log(eventsItems);
+        })
         if (user.events.length > 0) {
-            this.userProfile.innerHTML += `<div class="repositories section">
+            this.userProfile.innerHTML += `<div class="events">
             <h2>Eventos</h2>
             <ul>${eventsItems}</ul></div`;
         }
     },
 
-        renderNotFound() {
-            this.userProfile.innerHTML = "<h3> Usuário não Localizado</h3>";
-        }
-    
+    renderNotFound() {
+        this.userProfile.innerHTML = "<h3> Usuário não Localizado</h3>";
+    }
+
 };
 
 export { screen };

@@ -45,16 +45,16 @@ async function getUserData(userName) {
     const repositoriesResponse = await getRepositories(userName)
      
     const eventsResponse = await getEvents(userName)
-
+   
     user.setInfo(userResponse)
     user.setRepositories(repositoriesResponse)
     user.setEvents(eventsResponse)
     console.log(user);
 
-    const numberOfEvents = eventsResponse.length;
-    console.log(`Número de eventos: ${numberOfEvents}`);
     
-
+    
+    
     screen.renderUser(user)
    
 }
+console.log(eventsResponseEvents);
