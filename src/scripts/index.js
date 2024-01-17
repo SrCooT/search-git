@@ -33,28 +33,28 @@ function validateEmptyInput(userName) {
 }
 
 async function getUserData(userName) {
-    
+
     const userResponse = await getUser(userName)
 
-    if(userResponse.message === "Not Found"){
+    if (userResponse.message === "Not Found") {
         screen.renderNotFound()
         return
     }
 
 
     const repositoriesResponse = await getRepositories(userName)
-     
+
     const eventsResponse = await getEvents(userName)
-   
+
     user.setInfo(userResponse)
     user.setRepositories(repositoriesResponse)
     user.setEvents(eventsResponse)
     console.log(user);
 
-    
-    
-    
+
+
+
     screen.renderUser(user)
-   
+
 }
 console.log(eventsResponseEvents);
