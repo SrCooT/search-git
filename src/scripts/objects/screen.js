@@ -44,7 +44,7 @@ const screen = {
     },
 
     renderNotFound() {
-        this.userProfile.innerHTML = "<h3> Usuário não Localizado</h3>";
+        this.userProfile.innerHTML = "<h3> Usuário não Localizado 😪</h3>";
     }
 };
 
