@@ -107,7 +107,7 @@ main {
 .container .profile-data .info img{
   width: 50%;
   border-radius: 50%;
-  border: 10px solid hotpink;
+  border: 10px solid #6985ff;
 }
 
 .container .profile-data .info h1{
