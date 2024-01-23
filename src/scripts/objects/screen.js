@@ -14,12 +14,14 @@ const screen = {
             </div>`;
 
         let repositoriesItens = '';
-        user.repositories.forEach(repo => repositoriesItens += `<li><a href="${repo.html_url}" target="_blank">${repo.name}</a>
-        <div class="info">
-        <p>🪢${repo.forks}</p>
-        <p>🌟${repo.stargazers_count}</p>
-        <p>👀${repo.watchers}</p>
-        <p>📖${repo.language}</p>
+        user.repositories.forEach(repo => repositoriesItens += `<li>
+        
+        <a href="${repo.html_url}" target="_blank">${repo.name}</a>
+        <div class="repos-info">
+        <p>🪢 ${repo.forks}</p>
+        <p>🌟 ${repo.stargazers_count}</p>
+        <p>👀 ${repo.watchers}</p>
+        <p>📖 ${repo.language}</p>
         </div>
         </li>`)
 
