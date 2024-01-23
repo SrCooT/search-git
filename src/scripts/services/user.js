@@ -2,9 +2,7 @@ import { baseUrl, repositoriesQuantity , eventsQuantity ,} from '/src/scripts/va
 
 async function getUser(userName) {
     const response = await fetch(`${baseUrl}/${userName}`)
-    return await response.json()
-    
+    return await response.json() 
 }
-
 export { getUser }
 
