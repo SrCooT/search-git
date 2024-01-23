@@ -1,7 +1,7 @@
 <h1 align="center">projeto-fetch-github-api</h1>
 <h2 align="center">Descrição do Projeto</h2>
 
-<p align="center">Uma Página de pesquisa, onde o intuito é buscar o "nick" do usuário do GitHub, e fornecer as informações básicas como:
+<p align="center">Uma Página de pesquisa, onde o intuito é buscar informações de usuários na API do GitHub como:
 <li> Nome Do usuário no GitHub</li>
 <li> Quantidade seguidores </li>
 <li> Repositórios  </li>
