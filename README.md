@@ -1,6 +1,6 @@
 <h1 align="center">projeto-fetch-github-api</h1>
 
-<img align="center"> (<src/Img/Captura de tela 2024-01-23 185953.png>)>
+![align="Center"](<src/Img/Captura de tela 2024-01-23 185953.png>)
 
 
 <h2 align="center">Descrição do Projeto</h2>
