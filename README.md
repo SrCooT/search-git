@@ -3,6 +3,8 @@
 ![align="Center"](<src/Img/Captura de tela 2024-01-23 185953.png>)
 
 
+
+
 <h2 align="center">Descrição do Projeto</h2>
 
 <p align="center">Uma Página de pesquisa, onde o intuito é buscar informações de usuários na API do GitHub como:
