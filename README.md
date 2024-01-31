@@ -1,4 +1,8 @@
 <h1 align="center">projeto-fetch-github-api</h1>
+
+![Alt text](<src/Img/Captura de tela 2024-01-23 185953.png>)
+
+
 <h2 align="center">Descrição do Projeto</h2>
 
 <p align="center">Uma Página de pesquisa, onde o intuito é buscar informações de usuários na API do GitHub como:
@@ -19,6 +23,3 @@ Projeto De Conclusão do módulo de JavaScript Avançado, proposto pelo grupo De
 - HTML
 - CSS
 - JavaScript
-
-
-![Alt text](<src/Img/Captura de tela 2024-01-23 185953.png>)
